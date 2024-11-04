@@ -224,3 +224,67 @@ const SubmissionForm = () => {
 };
 
 export default SubmissionForm;
+
+
+//   const [transactionType, setTransactionType]=useState("Expense");
+//   const [tracker,setTracker]=useState( {
+        
+//     'id':crypto.randomUUID(),
+//     'category':"",
+//     'amount':"",
+//     'date':"",
+//     'type':"Expense"
+// })
+
+
+//   const [categories,setCategories]=useState([
+//     "Education",
+//     "Food",
+//     "Health",
+//     "Bill",
+//     "Insurance",
+//     "Tax",
+//     "Transport",
+//     "Telephone",
+//   ])
+//   function handleTransactionTypeChange(type){
+  
+//     setTransactionType(type)
+//     setTracker(prevTracker=>({
+//       ...prevTracker,
+//       type
+
+//     }))
+//       setCategories(
+//         type ==="Income" ? ["Salary", "Outsourcing", "Bond", "Dividend"]
+//         : [
+//             "Education",
+//             "Food",
+//             "Health",
+//             "Bill",
+//             "Insurance",
+//             "Tax",
+//             "Transport",
+//             "Telephone",
+//           ]
+//       )
+ 
+
+//   }
+
+//   function handleChange(e){
+  
+//     const name = e.target.name;
+//     let value=e.target.value;
+//     setTracker(prevTracker=>({
+//       ...prevTracker,
+//       [name]:value
+//     } )
+//   )
+  
+
+//   }
+//   function handleSubmit(e){
+//     e.preventDefault();
+//     onSave(tracker)
+//   }
